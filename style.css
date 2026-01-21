@@ -6,3 +6,6 @@
     text-align: center;  
     color: black; 
 }
+.h-nav {
+    list-style-type: none;
+}
