@@ -8,4 +8,6 @@
 }
 .h-nav {
     list-style-type: none;
+    text-decoration: none;
+    color: black; 
 }
