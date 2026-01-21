@@ -1,0 +1,18 @@
+* {
+    background-color: pink; 
+}
+.navbar { 
+    background-color: hotpink; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    height: 100%;
+    position: fixed;
+    overflow: auto; 
+}
+.name, 
+.location {
+    text-align: left; 
+    color: black; 
+}
