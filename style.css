@@ -1,31 +1,8 @@
 * {
     background-color: pink; 
 }
-.navbar { 
-    background-color: hotpink; 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 130px;
-    height: 100vh;
-    position: fixed;
-    overflow: auto; 
-    left: 0;
-    top: 0; 
-    z-index: 1000; 
-}
 .name, 
 .location {
     text-align: center;  
     color: black; 
-}
-.navbar li {
-    list-style: none;
-    position: relative;
-    z-index: 1001; 
-}
-.navbar a {
-    display: black;
-    text-decoration: none;
-    z-index: 1002; 
 }
