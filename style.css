@@ -45,3 +45,7 @@ a {
     margin-top: 5em;
     flex-direction: column; 
 }
+section {
+    padding: 130px 20px; 
+    margin-left: 16em; 
+}
