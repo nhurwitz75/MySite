@@ -49,3 +49,61 @@ section {
     padding: 130px 20px; 
     margin-left: 16em; 
 }
+.back {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    gap: 5em;
+}
+.p, 
+.j {
+    border: 6px solid black; 
+    width: 12em; 
+    height: 4em; 
+    border-radius: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink; 
+    font-size: 1.5em; 
+}
+.back,
+.front {
+    margin-bottom: 4em; 
+}
+.front {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+.h,
+.js {
+    border: 6px solid black; 
+    width: 12em; 
+    height: 4em; 
+    border-radius: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink; 
+    font-size: 1.5em; 
+}
+.tools {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;    
+}
+.v,
+.g {
+    border: 6px solid black; 
+    width: 12em; 
+    height: 4em; 
+    border-radius: 25px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink; 
+    font-size: 1.5em; 
+}
