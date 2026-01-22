@@ -1,21 +1,31 @@
 * {
     background-color: pink; 
 }
+.container {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+}
 .name, 
 .location {
     text-align: center;  
     color: black; 
+    margin-bottom: 0; 
 }
 .name {
     font-weight: bold; 
     font-size: 7em; 
 }
+.location {
+    font-size: 2.5em; 
+}
 .h-nav {
     list-style-type: none;
     text-decoration: none;
-    display: flex; 
     column-gap: 4em;
-    justify-content: center;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
 }
 a {
     color: black; 
@@ -23,8 +33,6 @@ a {
     font-size: 1.7em; 
 }
 .home {
-    margin-top: 5em; 
-    display: flex;
+    margin-top: 5em;
     flex-direction: column; 
-    justify-content: center;
 }
