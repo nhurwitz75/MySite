@@ -114,11 +114,17 @@ section {
 .td {
     border: 4px solid black;
     border-radius: 40px;
-    width: 7em;
-    height: 7em;
+    width: 15em;
+    height: 12em;
 }
 .pro {
     display: flex;
-    flex-direction: row;
-    gap: 10em; 
+    flex-direction: column;
+    gap: 8em; 
+}
+.r1, 
+.r2 {
+    display: flex;
+    flex-direction: row; 
+    gap: 10em;
 }
