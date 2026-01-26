@@ -138,3 +138,13 @@ section {
     justify-content: center;
     gap: 6em; 
 }
+.l {
+    height: 2em;
+    width: 5em; 
+}
+.pa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+}
